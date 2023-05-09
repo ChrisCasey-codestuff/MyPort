@@ -4,6 +4,8 @@ import Projects from './projects.js'
 import Contact from './contact.js'
 import Resume from './resume.js'
 import IoLogoJavascript from 'react-icons'
+import { FaReact } from 'react-icons/fa';
+import { TbBrandTailwind } from 'react-icons/fa';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -12,20 +14,22 @@ const Home = () => {
     <>
     <main className="mt-5">
     <div>
+    <div className="flex flex-row ml-40 text-5xl mt-10">
+
+    </div>
     <div className="ml-10 mt-12">
       <p className="text-2xl opacity-0 animate-pulse">Hello,</p>
       <p className="text-2xl opacity-0 animate-pulse">你好,</p>
     </div>
     </div>
         <div className="flex flex-col items-start">
-        <p className="text-slate-200 text-lg bg-slate ml-10 mt-10 mr-80 w-112 font-thin leading-loose">I am a bilingual full stack software engineer specializing in React and Javascript,
+        <p className="text-gray-400 text-2xl bg-slate ml-10 mt-10 w-5/6 mr-80 font-light leading-loose">I am a bilingual full stack software engineer specializing in React and Javascript.
           I am very passionate about using cutting edge technologies and strategies to implement
-          elegant solutions to problems that are both complex and dynamic. I leverage my creative ability,
-          organizational skills, and technical knowledge to approach and tackle challenges with enthusiasm and
-          confidence. I aim to work full time with a team of dedicated and passionate individuals in an environment
-          that fosters personal and professional growth.</p>
+          elegant solutions to problems that are both complex and dynamic.</p>
         </div>
-        <div className="mt-20">
+        <h2>
+        </h2>
+        <div className="mt-10">
         <section id="projects" className="mt-10">
           <Projects/>
         </section>

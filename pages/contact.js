@@ -8,7 +8,7 @@ export default function Contact() {
     <main
       className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
     >
-      <p className="text-3xl font-thin tracking-widest text-slate-200">Contact Me</p>
+      <p className="text-3xl font-extralight tracking-widest text-slate-200">Contact Me</p>
     </main>
   )
 }
