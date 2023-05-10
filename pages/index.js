@@ -17,12 +17,12 @@ const Home = () => {
     <div className="flex flex-row ml-40 text-5xl mt-10">
 
     </div>
-    <div className="ml-10 mt-12">
+    <div className="ml-12 mt-10">
       <p className="text-2xl opacity-0 animate-pulse">Hello,</p>
       <p className="text-2xl opacity-0 animate-pulse">你好,</p>
     </div>
     </div>
-        <div className="flex flex-col items-start">
+        <div className="flex flex-col items-start ml-2">
         <p className="text-gray-400 text-2xl bg-slate ml-10 mt-10 w-5/6 mr-80 font-light leading-loose">I am a bilingual full stack software engineer specializing in React and Javascript.
           I am very passionate about using cutting edge technologies and strategies to implement
           elegant solutions to problems that are both complex and dynamic.</p>

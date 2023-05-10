@@ -1,4 +1,5 @@
 import Link  from 'next/link';
+import { motion } from 'framer-motion';
 
 function Header() {
   return (
@@ -33,6 +34,17 @@ function Header() {
       </ul>
     </nav>
   </header>
+  <div className="flex flex-row justify-center">
+
+    <p className="text-gray-400 border-2 border-gray-400 hover:border-gray-300 text-xl mr-5 p-2 mt-20 font-extralight rounded-sm">GitHub</p>
+
+
+    <p className="text-gray-400 border-2 border-gray-400 hover:border-gray-300 text-xl mr-5 p-2 mt-20 font-extralight rounded-sm">LinkedIn</p>
+
+
+    <p className="text-gray-400 border-2 border-gray-400 hover:border-gray-300 text-xl mr-5 p-2 mt-20 font-extralight rounded-sm">Contact</p>
+
+  </div>
   </section>
   )
 }

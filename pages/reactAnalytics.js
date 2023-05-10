@@ -4,8 +4,12 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function ReactAnalytics() {
   return (
-    <main className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}>
-      <h1 class="text-5xl font-extralight">React Analytics Dashboard</h1>
+    <main className={`flex min-h-screen flex-col items-start justify-between m-10 ${inter.className}`}>
+      <h1 class="text-4xl font-extralight text-gray-300">React Analytics</h1>
+      <p>link to deployed</p>
+      <p>link to github repo</p>
+      <p>ReadMe copy</p>
+      <p>screenshots</p>
     </main>
   )
 }

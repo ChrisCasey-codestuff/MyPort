@@ -7,11 +7,11 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Projects() {
   return (
-    <main className="p-5">
+    <main className="pl-5">
       <div className="flex flex-row justify-center">
-        <h2 className="text-4xl m-10 text-gray-300 tracking-widest font-extralight mr-5">My Projects</h2>
+        <h2 className="text-4xl m-10 text-gray-300 tracking-widest font-extralight mr-14">My Projects</h2>
       </div>
-      <div className="flex flex-row items-end justify-end mt-5">
+      <div className="flex flex-row items-end justify-end mt-5 mr-3 ml-2">
         <div className="flex flex-col items-end justify-end mr-10">
           <Link href="/snakeTwitter" className="flex flex-row justify-end mr-20">
           <div className="bg-black m-5 p-5 rounded-md border-2 border-gray-400 hover:border-gray-500 drop-shadow-md bg-transparent w-1/2">
@@ -28,7 +28,7 @@ export default function Projects() {
           <Link href="/pokemonTourny" className="flex flex-row justify-end mr-20">
           <div className="bg-black m-5 p-5 rounded-md border-2 border-gray-400 hover:border-gray-500 drop-shadow-md bg-transparent w-1/2">
             <p className="text-gray-300 hover:text-gray-400 italic text-2xl mb-10 mr-40 font-light">Pokemon World Tournament</p>
-            <p className="text-gray-400 text-lg mb-10 hover:text-gray-500">One of my earliest Javascript projects that I am still very proud of, enter the Pokemon World Tournament! Form a team, encounter a rival pokemon trainer, and battle it out! This application was built using vanille JavaScript, Ajax, and the wonderul Pokemon Api!</p>
+            <p className="text-gray-400 text-lg mb-10 hover:text-gray-500">One of my earliest Javascript projects that I am still very proud of, enter the Pokemon World Tournament! Form a team, encounter a rival pokemon trainer, and battle it out! This application was built using vanilla JavaScript, Ajax, and the wonderul Pokemon Api!</p>
           </div>
           </Link>
         </div>
