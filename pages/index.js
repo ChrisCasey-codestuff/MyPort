@@ -17,7 +17,7 @@ const Home = () => {
     <div className="flex flex-row ml-40 text-5xl mt-10">
 
     </div>
-    <div className="ml-12 mt-10">
+    <div className="ml-10 mt-4">
       <p className="text-2xl opacity-0 animate-pulse">Hello,</p>
       <p className="text-2xl opacity-0 animate-pulse">你好,</p>
     </div>
