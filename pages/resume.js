@@ -25,32 +25,35 @@ export default function Resume() {
       <div className="flex flex-row justify-start bg-black w-1/2 rounded-md p-5 ">
 
         <div className="flex flex-row items-center pl-20">
-        <div className="flex flex-col justify-start mr-20">
+        <div className="flex flex-col justify-start ml-20">
           <div className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md">
-            <GrReactjs/>
+            <GrReactjs size={50} alt="React"/>
           </div>
           <div className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md">
-            <FaPython />
+            <FaPython size={50} alt="Python"/>
           </div>
           <div className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md">
-            <TbBrandTailwind />
+            <TbBrandTailwind size={50} alt="TailwindCSS"/>
+          </div>
+
+        </div>
+        <div className="flex flex-col justify-start ml-20 mr-10">
+          <div className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md">
+            <IoLogoJavascript size={50} alt="Javascript"/>
+          </div>
+          <div className="box-border m-5 p-4 border-2 border-black hover:border-gray-300 rounded-md">
+            <TbBrandNextjs size={50} alt="Next.js"/>
           </div>
           <div className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md">
-            <AiOutlineConsoleSql />
+            <AiOutlineConsoleSql size={50} alt="SQL"/>
           </div>
         </div>
-        <div className="flex flex-col justify-start mr-20">
-          <div className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md">
-            <IoLogoJavascript />
+        <div className="flex flex-col justify-start ml-10 mr-10">
+        <div className="box-border m-5 p-4 border-2 border-black hover:border-gray-300 rounded-md">
+            <SiMongodb size={50} alt="MongoDB"/>
           </div>
           <div className="box-border m-5 p-4 border-2 border-black hover:border-gray-300 rounded-md">
-            <TbBrandNextjs />
-          </div>
-          <div className="box-border m-5 p-4 border-2 border-black hover:border-gray-300 rounded-md">
-            <SiMongodb />
-          </div>
-          <div className="box-border m-5 p-4 border-2 border-black hover:border-gray-300 rounded-md">
-            <DiDjango alt="Django" />
+            <DiDjango alt="Django" size={50}/>
           </div>
         </div>
         </div>
