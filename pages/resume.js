@@ -24,8 +24,8 @@ export default function Resume() {
       <div className="flex flex-row justify-center">
       <div className="flex flex-row justify-start bg-black w-1/2 rounded-md p-5 ">
 
-        <div className="flex flex-row items-center pl-20">
-        <div className="flex flex-col justify-start ml-20">
+        <div className="flex flex-row items-center pl-60">
+        <div className="flex flex-col justify-start">
           <div data-aos="fade-zoom-in" data-aos-duration="700" className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md">
             <GrReactjs size={60} alt="React"/>
           </div>
@@ -36,7 +36,7 @@ export default function Resume() {
             <TbBrandTailwind size={60} alt="TailwindCSS"/>
           </div>
         </div>
-        <div className="flex flex-col justify-start ml-20 mr-10">
+        <div className="flex flex-col justify-start">
           <div data-aos="fade-zoom-in" data-aos-duration="700" className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md">
             <IoLogoJavascript size={60} alt="Javascript"/>
           </div>
@@ -47,7 +47,7 @@ export default function Resume() {
             <AiOutlineConsoleSql size={60} alt="SQL"/>
           </div>
         </div>
-        <div className="flex flex-col justify-start ml-10 mr-10">
+        <div className="flex flex-col justify-start">
         <div data-aos="fade-zoom-in"  data-aos-duration="700" className="box-border m-5 p-4 border-2 border-black hover:border-gray-300 rounded-md">
             <SiMongodb size={60} alt="MongoDB"/>
           </div>
@@ -57,7 +57,7 @@ export default function Resume() {
         </div>
         </div>
       </div>
-      <a className="ml-48 pl-10" href="../public/myRes.pdf" download>
+      <a className="ml-48 pl-10 mr-10" href="../public/myRes.pdf" download>
       <div data-aos="flip-left" data-aos-duration="1000" className="flex flex-row items-end justify-end border-2 border-gray-400 hover:border-gray-300 bg-black m-5 mr-40 rounded-md p-5 w-1/2">
         <div className=" text-gray-300 text-2xl font-extralight p-20">
             <p className="text-gray-300 hover:text-gray-400 pl-10 pr-10 pt-5 pb-5">Download My Resume</p>
