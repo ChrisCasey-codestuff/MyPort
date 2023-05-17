@@ -1,9 +1,13 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import { Particles } from "react-tsparticles";
-import particlesConfig from "../particlesConfig.js";
+import { Particles } from 'react-tsparticles';
+import particlesConfig from '../particlesConfig.js';
+
+
+
 export default function Document() {
+
   return (
     <Html lang="en">
       <Head />

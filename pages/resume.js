@@ -24,33 +24,33 @@ export default function Resume() {
       <div className="flex flex-row justify-center">
       <div className="flex flex-row justify-start bg-black w-1/2 rounded-md p-5 ">
 
-        <div className="flex flex-col items-center pl-20">
-        <div className="flex flex-row justify-start mr-20">
+        <div className="flex flex-row items-center pl-20">
+        <div className="flex flex-col justify-start mr-20">
           <div className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md">
-            <GrReactjs size={100}/>
+            <GrReactjs/>
           </div>
           <div className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md">
-            <FaPython size={100}/>
+            <FaPython />
           </div>
           <div className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md">
-            <TbBrandTailwind size={100}/>
+            <TbBrandTailwind />
           </div>
           <div className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md">
-            <AiOutlineConsoleSql size={100}/>
+            <AiOutlineConsoleSql />
           </div>
         </div>
-        <div className="flex flex-row justify-start mr-20">
+        <div className="flex flex-col justify-start mr-20">
           <div className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md">
-            <IoLogoJavascript size={100}/>
+            <IoLogoJavascript />
           </div>
           <div className="box-border m-5 p-4 border-2 border-black hover:border-gray-300 rounded-md">
-            <TbBrandNextjs size={100}/>
+            <TbBrandNextjs />
           </div>
           <div className="box-border m-5 p-4 border-2 border-black hover:border-gray-300 rounded-md">
-            <SiMongodb size={100}/>
+            <SiMongodb />
           </div>
           <div className="box-border m-5 p-4 border-2 border-black hover:border-gray-300 rounded-md">
-            <DiDjango alt="Django" size={100}/>
+            <DiDjango alt="Django" />
           </div>
         </div>
         </div>
