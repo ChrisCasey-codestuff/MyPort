@@ -26,40 +26,39 @@ export default function Resume() {
 
         <div className="flex flex-row items-center pl-20">
         <div className="flex flex-col justify-start ml-20">
-          <div className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md">
-            <GrReactjs size={50} alt="React"/>
+          <div data-aos="fade-zoom-in" data-aos-duration="700" className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md">
+            <GrReactjs size={60} alt="React"/>
           </div>
-          <div className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md">
-            <FaPython size={50} alt="Python"/>
+          <div data-aos="fade-zoom-in" data-aos-duration="700" className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md">
+            <FaPython size={60} alt="Python"/>
           </div>
-          <div className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md">
-            <TbBrandTailwind size={50} alt="TailwindCSS"/>
+          <div data-aos="fade-zoom-in" data-aos-duration="700" className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md">
+            <TbBrandTailwind size={60} alt="TailwindCSS"/>
           </div>
-
         </div>
         <div className="flex flex-col justify-start ml-20 mr-10">
-          <div className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md">
-            <IoLogoJavascript size={50} alt="Javascript"/>
+          <div data-aos="fade-zoom-in" data-aos-duration="700" className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md">
+            <IoLogoJavascript size={60} alt="Javascript"/>
           </div>
-          <div className="box-border m-5 p-4 border-2 border-black hover:border-gray-300 rounded-md">
-            <TbBrandNextjs size={50} alt="Next.js"/>
+          <div data-aos="fade-zoom-in" data-aos-duration="700" className="box-border m-5 p-4 border-2 border-black hover:border-gray-300 rounded-md">
+            <TbBrandNextjs size={60} alt="Next.js"/>
           </div>
-          <div className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md">
-            <AiOutlineConsoleSql size={50} alt="SQL"/>
+          <div data-aos="fade-zoom-in" data-aos-duration="700" className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md">
+            <AiOutlineConsoleSql size={60} alt="SQL"/>
           </div>
         </div>
         <div className="flex flex-col justify-start ml-10 mr-10">
-        <div className="box-border m-5 p-4 border-2 border-black hover:border-gray-300 rounded-md">
-            <SiMongodb size={50} alt="MongoDB"/>
+        <div data-aos="fade-zoom-in"  data-aos-duration="700" className="box-border m-5 p-4 border-2 border-black hover:border-gray-300 rounded-md">
+            <SiMongodb size={60} alt="MongoDB"/>
           </div>
-          <div className="box-border m-5 p-4 border-2 border-black hover:border-gray-300 rounded-md">
-            <DiDjango alt="Django" size={50}/>
+          <div data-aos="fade-zoom-in" data-aos-duration="700" className="box-border m-5 p-4 border-2 border-black hover:border-gray-300 rounded-md">
+            <DiDjango alt="Django" size={60}/>
           </div>
         </div>
         </div>
       </div>
-      <a  className="ml-48 pl-10" href="../public/myRes.pdf" download>
-      <div className="flex flex-row items-end justify-end border-2 border-gray-400 hover:border-gray-300 bg-black m-5 mr-40 rounded-md p-5 w-1/2">
+      <a className="ml-48 pl-10" href="../public/myRes.pdf" download>
+      <div data-aos="flip-left" data-aos-duration="1000" className="flex flex-row items-end justify-end border-2 border-gray-400 hover:border-gray-300 bg-black m-5 mr-40 rounded-md p-5 w-1/2">
         <div className=" text-gray-300 text-2xl font-extralight p-20">
             <p className="text-gray-300 hover:text-gray-400 pl-10 pr-10 pt-5 pb-5">Download My Resume</p>
         </div>

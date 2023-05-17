@@ -17,12 +17,12 @@ const Home = () => {
     <div className="flex flex-row ml-40 text-5xl mt-10">
 
     </div>
-    <div className="ml-10 mt-4">
+    <div data-aos="fade-up" data-aos-duration="1500" className="ml-12 mt-4">
       <p className="text-2xl opacity-0 animate-pulse">Hello,</p>
       <p className="text-2xl opacity-0 animate-pulse">你好,</p>
     </div>
     </div>
-        <div  data-aos="fade-up">
+        <div data-aos="fade-up" data-aos-duration="1500">
         <div className="flex flex-col items-start ml-2">
         <p className="text-gray-400 text-2xl bg-slate ml-10 mt-10 w-5/6 mr-80 font-light leading-loose">I am a bilingual full stack software engineer and electronic musician. I specialize in building React and Javascript applications.
           I am very passionate about using cutting edge technologies and strategies to implement
