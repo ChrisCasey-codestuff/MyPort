@@ -3,7 +3,7 @@ import 'aos/dist/aos.css';
 
 const initAOS = () => {
   AOS.init({
-    // Configuration options
+    duration: 500,
   });
 };
 
