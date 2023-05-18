@@ -21,7 +21,7 @@ export default function Resume() {
          <div className="flex flex-row justify-center w-1/2 mt-10 pl-32">
          <h3 className="text-gray-300 text-4xl font-extralight">Skills</h3>
          </div>
-      <div className="flex flex-row justify-center">
+      <div className="flex lg:flex-row md:flex-row sm:flex-col justify-center">
       <div className="flex flex-row justify-start bg-black w-1/2 rounded-md p-5 ">
 
         <div className="flex flex-row items-center pl-60">
