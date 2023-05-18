@@ -19,9 +19,9 @@ export default function Projects() {
         <h2 className="text-4xl m-10 text-gray-300 tracking-widest font-extralight mr-14">My Projects</h2>
       </div>
       <div className="flex flex-row items-end justify-end mt-5 mr-3 ml-2">
-        <div className="mr-10">
+        <div className="lg:mr-10 md:mr-10 sm:mr-5">
           <div className="flex flex-row lg:justify-end  sm:justify-center md:justify-start md:mr-20 lg:mr-20 sm:mr-0">
-          <div data-aos="fade-up"  data-aos-duration="1000" className="bg-black m-5 p-5 rounded-md border-2 border-gray-400 hover:border-gray-500 drop-shadow-md bg-transparent lg:w-1/2 md:w-4/5 sm:w-1/2">
+          <div data-aos="fade-up"  data-aos-duration="1000" className="bg-black m-5 p-5 rounded-md border-2 border-gray-400 hover:border-gray-500 drop-shadow-md bg-transparent lg:w-1/2 md:w-4/5 sm:w-4/5">
             <Link href="/snakeTwitter">
               <div className="flex flex-row">
                 <p className="text-gray-300 hover:text-gray-400 italic text-2xl mb-10 mr-40 font-light lg:text-left md:text-left sm:text-center">Snake Twitter</p>
@@ -37,7 +37,7 @@ export default function Projects() {
 
 
           <div className="flex flex-row lg:justify-start md:justify-start mr-30 sm:justify-center">
-            <div data-aos="fade-up"  data-aos-duration="1000" className="bg-black m-5 p-5 rounded-md border-2 border-gray-400 hover:border-gray-500 drop-shadow-md bg-transparent lg:w-1/2 md:w-4/5 sm:w-1/2 lg:text-left md:text-left sm:text-center">
+            <div data-aos="fade-up"  data-aos-duration="1000" className="bg-black m-5 p-5 rounded-md border-2 border-gray-400 hover:border-gray-500 drop-shadow-md bg-transparent lg:w-1/2 md:w-4/5 sm:w-4/5 lg:text-left md:text-left sm:text-center">
             <Link href="/reactAnalytics">
               <p className="text-gray-300 hover:text-gray-400 italic text-2xl mb-10 mr-40 font-light">React Analytics DashBoard</p>
             </Link>
@@ -48,8 +48,8 @@ export default function Projects() {
           </div>
 
 
-            <div className="flex flex-row lg:justify-end  sm:justify-center md:justify-start md:mr-20 lg:mr-20 sm:mr-10">
-              <div data-aos="fade-up"  data-aos-duration="1000" className="bg-black m-5 p-5 rounded-md border-2 border-gray-400 hover:border-gray-500 drop-shadow-md bg-transparent lg:w-1/2 md:w-4/5 sm:w-1/2">
+            <div className="flex flex-row lg:justify-end  sm:justify-center md:justify-start md:mr-20 lg:mr-20">
+              <div data-aos="fade-up"  data-aos-duration="1000" className="bg-black m-5 p-5 rounded-md border-2 border-gray-400 hover:border-gray-500 drop-shadow-md bg-transparent lg:w-1/2 md:w-4/5 sm:w-4/5">
               <Link href="/pokemonTourny">
                 <p className="text-gray-300 hover:text-gray-400 italic text-2xl mb-10 mr-40 font-light lg:text-left md:text-left sm:text-center">Pokemon World Tournament</p>
               </Link>

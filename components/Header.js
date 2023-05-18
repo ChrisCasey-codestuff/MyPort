@@ -10,8 +10,8 @@ function Header() {
      </h1>
      <nav className="ml-10 mb-10
      lg:mt-10 fixed top-0 lg:right-0 md:right-0 sm:mr-80 md:mr-4
-     lg:mr-10 lg:z-50 md:z-50 sm:z-50 md:mt-5 sm:mt-0 sm:w-full md:w-auto lg:w-auto">
-      <ul className="flex lg:flex-col lg:justify-start md:flex-col md:justify-start sm:flex-row sm:justify-center sm:items-center sm:bg-black sm:w-full md:bg-transparent lg:bg-transparent md:w-auto lg:w-auto">
+     lg:mr-10 lg:z-50 md:z-50 sm:z-50 md:mt-5 sm:mt-0 sm:w-full md:w-auto lg:w-auto sm:pr-8">
+      <ul className="flex lg:flex-col lg:justify-start md:flex-col md:justify-start sm:flex-row sm:justify-center sm:pr-10 sm:items-center sm:bg-black sm:w-full md:bg-transparent lg:bg-transparent md:w-auto lg:w-auto">
       <li data-aos="fade-left" data-aos-duration="400" className="mr-4 mt-2 mb-2 ml-2">
           <Link href="/#home" className="text-gray-400 hover:text-gray-500 transition-all font-extralight">
             <p className="text-xl">Home</p>
