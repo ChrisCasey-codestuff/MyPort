@@ -26,8 +26,9 @@ export default function Contact() {
             </div>
             <div className="flex flex-col m-5">
               <p>Message</p>
-              <textarea name="message"className="m-2 pt-10 rounded-md"></textarea>
+              <textarea name="message"className="m-2 pt-10 rounded-md text-black"></textarea>
             </div>
+            <input type="submit" className="border-2 border-white rounded-md"></input>
           </form>
         </div>
       </div>
