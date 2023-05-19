@@ -24,7 +24,7 @@ export default function Resume() {
       <div className="flex lg:flex-row md:flex-row sm:flex-col justify-center">
       <div className="flex flex-row lg:justify-start md:justify-start sm:justify-center bg-black w-1/2 rounded-md p-5 sm:mr-32">
 
-        <div className="flex flex-row items-center lg:pl-60 sm:pl-60 md:mr-0">
+        <div className="flex flex-row items-center lg:pl-60 sm:pl-56 md:mr-0">
         <div className="flex flex-col justify-start">
           <div data-aos="fade-zoom-in" data-aos-duration="700" className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md">
             <GrReactjs size={60} alt="React"/>
