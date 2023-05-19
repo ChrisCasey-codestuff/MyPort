@@ -13,7 +13,7 @@ export default function PokemonTourny() {
         <p></p>
         <ul></ul>
       </div>
-      <p>screenshots</p>
+
     </main>
   )
 }
