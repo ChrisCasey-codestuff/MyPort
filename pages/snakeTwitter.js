@@ -13,7 +13,7 @@ export default function SnakeTwitter() {
         <p></p>
         <ul></ul>
       </div>
-      <p>screenshots</p>
+      <img src="../public/snaketwitteruserfeed.png"/>
     </main>
   )
 }
