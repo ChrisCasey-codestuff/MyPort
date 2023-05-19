@@ -59,7 +59,7 @@ export default function Resume() {
       </div>
 
       <a className="lg:ml-10 md:ml-14 lg:pl-10 md:pl-10 lg:mr-36 md:mr-36" href="../public/myRes.pdf" download>
-      <div data-aos="flip-left" data-aos-duration="1000" className="flex flex-row items-end justify-end border-2 border-gray-400 hover:border-gray-300 bg-black m-5 mr-40 rounded-md p-5 w-1/2 sm:ml-32 lg:ml-0 md:ml-0 sm:w-2/3">
+      <div data-aos="flip-left" data-aos-duration="1000" className="flex flex-row items-end justify-end border-2 border-gray-400 hover:border-gray-300 bg-black m-5 mr-40 rounded-md p-5 w-1/2 sm:ml-20 lg:ml-0 md:ml-0 sm:w-2/3">
         <div className=" text-gray-300 text-2xl font-extralight p-20">
             <p className="text-gray-300 hover:text-gray-400 pl-10 pr-10 pt-5 pb-5">Download My Resume</p>
         </div>
