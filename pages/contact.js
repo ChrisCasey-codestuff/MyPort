@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <main className="flex flex-col items-center justify-center mt-10">
       <p className="text-4xl font-extralight tracking-widest text-slate-200 ml-5">Contact Me</p>
-      <div className="flex flex-row mt-10 mb-32">
+      <div className="flex flex-row mt-10 mb-20">
         <div>
           <form className="flex flex-col lg:p-10  md:p-10 sm:p-5 rounded-md sm:w-1/2" action="https://getform.io/f/ab2831ce-9681-4e89-9a86-6652d337ba8c" method="POST">
             <div className="flex lg:flex-row md:flex-row sm:flex-col sm:items-center  sm:justify-center lg:justify-start  md:justify-start pt-5 lg:m-10 sm:ml-64 sm:m-5 md:m-5">
