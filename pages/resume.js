@@ -47,7 +47,7 @@ export default function Resume() {
             <AiOutlineConsoleSql size={60} alt="SQL"/>
           </div>
         </div>
-        <div className="flex flex-col justify-start">
+        <div className="flex flex-col justify-start sm:mr-4 lg:mr-0 md:mr-0">
         <div data-aos="fade-zoom-in"  data-aos-duration="700" className="box-border m-5 p-4 border-2 border-black hover:border-gray-300 rounded-md">
             <SiMongodb size={60} alt="MongoDB"/>
           </div>
