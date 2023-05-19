@@ -8,7 +8,7 @@ export default function ReactAnalytics() {
       <h1 class="text-4xl font-extralight text-gray-300">React Analytics</h1>
       <a href="https://legendary-lily-950389.netlify.app/" className="text-2xl text-blue-500 font-light">Deployed applicaion</a>
       <a href="https://github.com/ChrisCasey-codestuff/react-analytics-dash" className="text-2xl text-blue-500 font-light">Github repo</a>
-      <p>ReadMe copy</p>
+
       <p>screenshots</p>
     </main>
   )

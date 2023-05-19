@@ -35,7 +35,7 @@ function Header() {
       </ul>
     </nav>
   </header>
-  <div className="flex flex-row justify-center lg:mr-2  md:mr-2 sm:mr-4">
+  <div className="flex flex-row justify-center lg:mr-2  md:mr-2 sm:mr-0">
     <a href="https://github.com/ChrisCasey-codestuff">
       <p data-aos="fade-right" data-aos-duration="1500" className="text-gray-400 hover:text-gray-500 text-2xl mr-5 p-2 mt-12 font-extralight rounded-sm">GitHub</p>
     </a>
