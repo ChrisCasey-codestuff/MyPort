@@ -16,7 +16,7 @@ export default function Resume() {
       <div className="flex flex-row justify-center">
         <h2 className="text-4xl m-10 text-gray-300 tracking-widest font-extralight mr-14">My Resume</h2>
       </div>
-      <h2 className="flex text-gray-400 font-extrathin text-lg italic ml-16 mt-10 w-5/6 sm:mr-10 lg:mr-0 md:mr-0">“True education is a kind of never ending story — a matter of continual beginnings, of habitual fresh starts, of persistent newness.”
+      <h2 className="flex text-gray-400 font-extrathin text-lg italic lg:ml-16 md:ml-16 sm:ml-12 mt-10 w-5/6 sm:mr-10 lg:mr-0 md:mr-0">“True education is a kind of never ending story — a matter of continual beginnings, of habitual fresh starts, of persistent newness.”
          ― J. R. R. Tolkien</h2>
          <div className="flex flex-row justify-center w-1/2 mt-10 lg:pl-32 md:pl-8 sm:pl-60 lg:pr-24">
          <h3 className="text-gray-300 text-4xl font-extralight">Skills</h3>
