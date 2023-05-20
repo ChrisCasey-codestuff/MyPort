@@ -24,7 +24,6 @@ export default function PokemonTourny() {
 
           </ol>
         </div>
-        <img src="../public/snaketwitteruserfeed.png"/>
       </div>
     </main>
   )
