@@ -38,11 +38,11 @@ export default function Projects() {
 
           <div className="flex flex-row lg:justify-start md:justify-start mr-30 sm:justify-center">
             <div data-aos="fade-up"  data-aos-duration="1000" className="bg-black lg:m-5 md:m-5 sm:ml-5 sm:mt-5 sm:mr-5 p-5 rounded-md border-2 border-gray-400 hover:border-gray-500 drop-shadow-md bg-transparent lg:w-1/2 md:w-4/5 sm:w-4/5 lg:text-left md:text-left sm:text-center">
-            <Link href="/reactAnalytics">
-              <p className="text-gray-300 hover:text-gray-400 italic text-2xl mb-10 mr-40 font-light">React Analytics DashBoard</p>
+            <Link href="/myPortfolio">
+              <p className="text-gray-300 hover:text-gray-400 italic text-2xl mb-10 mr-40 font-light">My Portfolio</p>
             </Link>
-            <Link href="/reactAnalytics">
-              <p className="text-gray-400 text-lg mb-10 hover:text-gray-500">This is an administrative business dashboard I built following a JavaScript Mastery Youtube tutorial. It leverages large scale context, and a React component library called Syncfusion to implement a wide variety of dynamic charts, and analytics.</p>
+            <Link href="/myPortfolio">
+              <p className="text-gray-400 text-lg mb-10 hover:text-gray-500">The application you are currently using. I built this web app using a combination of Next.js and TailwindCSS.</p>
             </Link>
             </div>
           </div>

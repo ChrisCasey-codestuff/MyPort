@@ -20,7 +20,7 @@ export default function Contact() {
                 <input type="text" name="last name" className="m-2 rounded-md"></input>
               </div>
             </div>
-            <div className="flex lg:flex-row md:flex-row sm:flex-col sm:ml-60 lg:ml-10">
+            <div className="flex lg:flex-row md:flex-row sm:flex-col sm:ml-60 md:ml-4 lg:ml-10">
             <div className="flex flex-col m-5  justify-center items-center">
             <p>Email</p>
             <input type="text" name="email" className="m-2 mb-10 rounded-md"></input>
