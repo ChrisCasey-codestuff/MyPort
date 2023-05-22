@@ -15,7 +15,7 @@ export default function Document() {
       <div className="absolute">
       <Particles height="100vh" width="100vw" params={particlesConfig} />
       </div>
-      <body>
+      <body className="flex flex-col min-h-screen">
         <Header />
         <Main />
         <Footer />
