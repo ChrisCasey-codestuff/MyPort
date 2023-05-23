@@ -13,17 +13,17 @@ export default function Contact() {
             <div className="flex lg:flex-row md:flex-row sm:flex-col sm:items-center  sm:justify-center lg:justify-start  md:justify-start pt-5 lg:m-10 sm:ml-64 sm:m-5 md:m-5">
               <div className="flex flex-col m-5 justify-center items-center">
                 <p>First Name</p>
-                <input type="text" name="first name" className="m-2 rounded-md"></input>
+                <input type="text" name="first name" className="m-2 rounded-md text-black"></input>
               </div>
               <div className="flex flex-col m-5  justify-center items-center">
                 <p>Last Name</p>
-                <input type="text" name="last name" className="m-2 rounded-md"></input>
+                <input type="text" name="last name" className="m-2 rounded-md text-black"></input>
               </div>
             </div>
             <div className="flex lg:flex-row md:flex-row sm:flex-col sm:ml-60 md:ml-4 lg:ml-10">
             <div className="flex flex-col m-5  justify-center items-center">
             <p>Email</p>
-            <input type="text" name="email" className="m-2 mb-10 rounded-md"></input>
+            <input type="text" name="email" className="m-2 mb-10 rounded-md text-black"></input>
             </div>
             <div className="flex flex-col m-5 justify-center items-center">
               <p>Message</p>
