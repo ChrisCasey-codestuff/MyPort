@@ -20,7 +20,7 @@ export default function Resume() {
          ― J. R. R. Tolkien</h2>
       <div className="flex sm:flex-col lg:flex-row md:flex-row w-full justify-center">
 
-        <div className="flex flex-col items-center lg:mr-40 md:mr-20 sm:mr-0 mt-10">
+        <div className="flex flex-col items-center lg:mr-40 md:mr-12 sm:mr-0 mt-10">
           <p className="text-3xl font-extralight tracking-widest md:ml-2 sm:mr-0 lg:ml-4">Skills</p>
 
           <div className="flex flex-row items-center">
