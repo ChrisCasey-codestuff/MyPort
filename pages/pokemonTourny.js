@@ -5,24 +5,26 @@ const inter = Inter({ subsets: ['latin'] })
 export default function PokemonTourny() {
   return (
     <main>
-      <div className="mt-5">
-        <h1 className="">Pokemon Tournament</h1>
+      <div data-aos="fade-right"  data-aos-duration="1000">
+        <h1 className="text-3xl font-extralight m-5 text-gray-200 tracking-widest">Pokemon World Tournament</h1>
       </div>
-      <div className="">
-      <div className="">
-          <a href="https://my-port.herokuapp.com/" className="">Deployed applicaion</a>
-          <a href="https://github.com/ChrisCasey-codestuff/MyPort" className="">Github repo</a>
-        </div>
-        <div className="">
-          <h2 className="">Welcome</h2>
-          <p className=""> This is the Pokemon World Tournament!.</p>
-          <h3 className="">How to Play:</h3>
-          <ol className="">
-            <li className="">click 'Assemble Team' to generate a pokemon team of 4</li>
-            <li className="">click 'Encounter Opponent' to generate an adversary pokemon team.</li>
-            <li className="">Now you're ready! click 'Battle' to begin playing.</li>
-            <li className="">Each turn you may select one Pokemon to attack the enemy team with, the enemy will then have a chance to retaliate before you choose again.</li>
-            <li className="">The last team with Pokemon still standing wins!</li>
+        <div data-aos="fade-right"  data-aos-duration="1000" className="flex flex-row sm:justify-center md:justify-start lg:justify-start">
+            <a href="https://6452e72c920a5d0677d8aee9--meek-treacle-ec8ccb.netlify.app/"
+            className="border-2 m-5 p-5 rounded-md text-gray-400 border-gray-400 hover:text-gray-300">Deployed applicaion</a>
+            <a href="https://github.com/ChrisCasey-codestuff/WorldPokemonTournament"
+            className="border-2 m-5 p-5 rounded-md text-gray-400 border-gray-400 hover:text-gray-300">Github repo</a>
+      </div>
+      <div data-aos="fade-right"  data-aos-duration="1000" className="flex flex-col sm:items-center sm:justify-center lg:items-start md:items-start">
+        <h2 className="text-2xl m-5 text-gray-200 font-light">Welcome</h2>
+        <p className="m-5 text-xl sm:text-center lg:text-left md:text-left text-gray-300 font-light tracking-wide w-2/3">This is the Pokemon World Tournament! A team Pokemon battle game built using vanilla Javascript and AJAX and the wonderful Pokemon API.</p>
+        <div data-aos="fade-up"  data-aos-duration="1000" className="border-2 border-gray-300 p-5 rounded-md m-5 w-2/3">
+          <p className="m-5 text-2xl text-gray-200">How to use:</p>
+          <ol className="sm:text-center lg:text-left md:text-left text-gray-300 font-light tracking-wide">
+            <li className="m-5 text-lg">1. Click 'Assemble Team' to gather a team of 4 pokemon.</li>
+            <li className="m-5 text-lg">2. Once you are satisfied with your team, click "Encounter Opponent" to challenge a rival trainer.</li>
+            <li className="m-5 text-lg">3. Once you have a team and an enemy you are ready to battle. Click the 'battle' button to engage.</li>
+            <li className="m-5 text-lg">4. Once in battle mode, you will have the ooportunity to select a Pokemon to attack the enemy team, each time you make a choice that Pokemon will either land an attack on an enemy Pokemon or miss, then the enemy team will have a chance to attack back.</li>
+            <li className="m-5 text-lg">5. Teams will continue taking turns until one team has no Pokemon remaining.</li>
           </ol>
         </div>
       </div>

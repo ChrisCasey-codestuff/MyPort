@@ -18,7 +18,6 @@ export default function Document() {
       <body className="flex flex-col min-h-screen">
         <Header />
         <Main />
-        <Footer />
         <NextScript />
       </body>
       </div>
