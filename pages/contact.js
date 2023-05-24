@@ -12,21 +12,21 @@ export default function Contact() {
           <form className="flex flex-col lg:p-10  md:p-10 sm:p-5 rounded-md sm:w-1/2" action="https://getform.io/f/ab2831ce-9681-4e89-9a86-6652d337ba8c" method="POST">
             <div className="flex lg:flex-row md:flex-row sm:flex-col sm:items-center  sm:justify-center lg:justify-start  md:justify-start pt-5 lg:m-10 sm:ml-64 sm:m-5 md:m-5">
               <div className="flex flex-col m-5 justify-center items-center">
-                <p>First Name</p>
+                <p className="text-gray-200">First Name</p>
                 <input type="text" name="first name" className="m-2 rounded-md text-black"></input>
               </div>
               <div className="flex flex-col m-5  justify-center items-center">
-                <p>Last Name</p>
+                <p className="text-gray-200">Last Name</p>
                 <input type="text" name="last name" className="m-2 rounded-md text-black"></input>
               </div>
             </div>
             <div className="flex lg:flex-row md:flex-row sm:flex-col sm:ml-60 md:ml-4 lg:ml-10">
             <div className="flex flex-col m-5  justify-center items-center">
-            <p>Email</p>
+            <p className="text-gray-200">Email</p>
             <input type="text" name="email" className="m-2 mb-10 rounded-md text-black"></input>
             </div>
             <div className="flex flex-col m-5 justify-center items-center">
-              <p>Message</p>
+              <p className="text-gray-200">Message</p>
               <textarea name="message"className="m-2 pt-10 rounded-md text-black"></textarea>
             </div>
             </div>

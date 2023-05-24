@@ -23,8 +23,8 @@ const Home = () => {
     </div>
     </div>
         <div data-aos="fade-up" data-aos-duration="1500">
-        <div className="flex flex-col items-start ml-2">
-        <p className="text-gray-400 text-2xl bg-slate lg:ml-10 md:ml-10 sm:ml-8 mt-10 sm:w-5/6 lg:w-5/6 md:w-4/5 mr-80 sm:mr-80 font-light leading-loose lg:text-left md:text-left sm:text-center">I am a bilingual full stack software engineer and electronic musician. I specialize in building React and Javascript applications.
+        <div className="flex flex-col lg:items-start md:items-start sm:items-center ml-2">
+        <p className="text-gray-400 text-2xl bg-slate lg:ml-10 md:ml-10 sm:ml-8 mt-10 sm:w-full lg:w-5/6 md:w-4/5 font-light leading-loose lg:text-left md:text-left sm:text-center">I am a bilingual full stack software engineer and electronic musician. I specialize in building React and Javascript applications.
           I am very passionate about using cutting edge technologies and strategies to implement
           elegant solutions to problems that are both complex and dynamic.</p>
         </div>

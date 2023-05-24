@@ -16,41 +16,43 @@ export default function Resume() {
       <div className="flex flex-row justify-center">
         <h2 className="text-4xl m-10 text-gray-300 tracking-widest font-extralight mr-14">My Resume</h2>
       </div>
-      <h2 className="flex text-gray-400 font-extrathin text-lg italic lg:ml-16 md:ml-16 sm:ml-10 mt-10 sm:w-5/6 md:w-3/4 lg:w-4/5 sm:mr-10 lg:mr-0 md:mr-0">“True education is a kind of never ending story — a matter of continual beginnings, of habitual fresh starts, of persistent newness.”
+      <div className="flex flex-row justify-center md:mr-10">
+        <h2 className="flex text-gray-400 font-extrathin text-lg italic lg:ml-16 md:ml-16 sm:ml-0 mt-6 sm:w-5/6 md:w-1/2 lg:w-4/5 sm:mr-0 lg:mr-0 md:mr-0">“True education is a kind of never ending story — a matter of continual beginnings, of habitual fresh starts, of persistent newness.”
          ― J. R. R. Tolkien</h2>
+      </div>
       <div className="flex sm:flex-col lg:flex-row md:flex-row w-full justify-center">
 
         <div className="flex flex-col items-center lg:mr-40 md:mr-12 sm:mr-0 mt-10">
-          <p className="text-3xl font-extralight tracking-widest md:ml-2 sm:mr-0 lg:ml-4">Skills</p>
+          <p className="text-3xl font-extralight tracking-widest md:ml-2 lg:ml-4 sm:mr-2">Skills</p>
 
           <div className="flex flex-row items-center">
 
             <div className="flex flex-col justify-start">
 
-              <div data-aos="fade-zoom-in" data-aos-duration="700" className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md">
+              <div data-aos="fade-zoom-in" data-aos-duration="700" className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md text-white">
                 <GrReactjs size={60} alt="React"/>
               </div>
 
-              <div data-aos="fade-zoom-in" data-aos-duration="700" className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md">
+              <div data-aos="fade-zoom-in" data-aos-duration="700" className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md text-white">
                 <FaPython size={60} alt="Python"/>
               </div>
 
-              <div data-aos="fade-zoom-in" data-aos-duration="700" className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md">
+              <div data-aos="fade-zoom-in" data-aos-duration="700" className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md text-white">
                 <TbBrandTailwind size={60} alt="TailwindCSS"/>
               </div>
 
             </div>
 
             <div className="flex flex-col justify-start">
-              <div data-aos="fade-zoom-in" data-aos-duration="700" className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md">
+              <div data-aos="fade-zoom-in" data-aos-duration="700" className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md text-white">
                 <IoLogoJavascript size={60} alt="Javascript"/>
               </div>
 
-              <div data-aos="fade-zoom-in" data-aos-duration="700" className="box-border m-5 p-4 border-2 border-black hover:border-gray-300 rounded-md">
+              <div data-aos="fade-zoom-in" data-aos-duration="700" className="box-border m-5 p-4 border-2 border-black hover:border-gray-300 rounded-md text-white">
                 <TbBrandNextjs size={60} alt="Next.js"/>
               </div>
 
-              <div data-aos="fade-zoom-in" data-aos-duration="700" className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md">
+              <div data-aos="fade-zoom-in" data-aos-duration="700" className="box-border m-5 p-4  border-2 border-black hover:border-gray-300 rounded-md text-white">
                 <AiOutlineConsoleSql size={60} alt="SQL"/>
               </div>
 
@@ -58,12 +60,12 @@ export default function Resume() {
 
             <div className="flex flex-col justify-start sm:mr-4 lg:mr-0 md:mr-0">
 
-              <div data-aos="fade-zoom-in"  data-aos-duration="700" className="box-border m-5 p-4 border-2 border-black hover:border-gray-300 rounded-md">
+              <div data-aos="fade-zoom-in"  data-aos-duration="700" className="box-border m-5 p-4 border-2 border-black hover:border-gray-300 rounded-md text-white">
                 <SiMongodb size={60} alt="MongoDB"/>
               </div>
 
-              <div data-aos="fade-zoom-in" data-aos-duration="700" className="box-border m-5 p-4 border-2 border-black hover:border-gray-300 rounded-md">
-                <DiDjango alt="Django" size={60}/>
+              <div data-aos="fade-zoom-in" data-aos-duration="700" className="box-border m-5 p-4 border-2 border-black hover:border-gray-300 rounded-md text-white">
+                <DiDjango alt="Django" size={60} color=""/>
               </div>
             </div>
           </div>
@@ -71,9 +73,9 @@ export default function Resume() {
 
 
 
-        <div className="flex flex-col items-center md:mr-20 lg:mr-20 sm:mr-0 mt-20">
+        <div className="flex flex-col items-center md:mr-20 lg:mr-20 sm:mr-0 mt-14">
 
-          <div data-aos="flip-right" data-aos-duration="1000" className="border-2 border-gray-400 p-10 rounded-md m-5">
+          <div data-aos="flip-right" data-aos-duration="1000" className="border-2 border-gray-400 p-10 rounded-md m-5 text-gray-200">
             <a href="https://docs.google.com/document/d/1-esnALxJljMTqnJeEvhrRC_uaR3tvdVW/edit">
               View full resume
             </a>
@@ -82,15 +84,11 @@ export default function Resume() {
           <a className="border-2 border-gray-400 p-10 rounded-md m-5" href="/Users/tomwhiteman/my-port/public/myRes.pdf" download>
           <div data-aos="flip-left" data-aos-duration="1000" className="">
             <div className="">
-                <p className="">Download My Resume</p>
+                <p className="text-gray-200">Download My Resume</p>
             </div>
           </div>
           </a>
-
         </div>
-
-
-
       </div>
 
     </main>
