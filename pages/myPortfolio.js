@@ -4,7 +4,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function ReactAnalytics() {
   return (
-    <main>
+    <main className="flex sm:flex-col items-center">
       <div data-aos="fade-right"  data-aos-duration="1000" className="flex flex-row sm:justify-center lg:justify-start md:justify-start w-full">
         <h1 className="text-3xl font-extralight m-5 text-gray-200 tracking-widest">My Professional Portfolio</h1>
       </div>
@@ -16,8 +16,8 @@ export default function ReactAnalytics() {
       </div>
       <div data-aos="fade-right"  data-aos-duration="1000" className="flex flex-col sm:items-center sm:justify-center lg:items-start md:items-start">
         <h2 className="text-2xl m-5 text-gray-200 font-light">Welcome</h2>
-        <p className="m-5 text-xl sm:text-center lg:text-left md:text-left text-gray-300 font-light tracking-wide w-2/3">This is my professional portfolio, I built this applicaion using NextJS and styled it with TailwindCSS.</p>
-        <div data-aos="fade-up"  data-aos-duration="1000" className="border-2 border-gray-300 p-5 rounded-md m-5 w-2/3">
+        <p className="m-5 text-xl sm:text-center lg:text-left md:text-left text-gray-300 font-light tracking-wide lg:w-2/3 md:w-2/3 sm:w-full">This is my professional portfolio, I built this applicaion using NextJS and styled it with TailwindCSS.</p>
+        <div data-aos="fade-up"  data-aos-duration="1000" className="border-2 border-gray-300 p-5 rounded-md m-5 lg:w-2/3 md:w-2/3 sm:w-full">
           <p className="m-5 text-2xl text-gray-200">How to use:</p>
           <ol className="sm:text-center lg:text-left md:text-left text-gray-300 font-light tracking-wide">
             <li className="m-5 text-lg">1. Scroll through to learn more about me.</li>

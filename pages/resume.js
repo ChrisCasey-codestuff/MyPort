@@ -13,19 +13,19 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Resume() {
   return (
     <main>
-      <div className="flex flex-row justify-center">
-        <h2 className="text-4xl m-10 text-gray-300 tracking-widest font-extralight mr-14">My Resume</h2>
+      <div className="flex flex-row justify-center sm:ml-12 w-full">
+        <h2 className="text-4xl m-10 text-gray-300 tracking-widest font-extralight lg:mr-14 md:mr-14">My Resume</h2>
       </div>
-      <div className="flex flex-row justify-center md:mr-10">
-        <h2 className="flex text-gray-400 font-extrathin text-lg italic lg:ml-16 md:ml-16 sm:ml-0 mt-6 sm:w-5/6 md:w-1/2 lg:w-4/5 sm:mr-0 lg:mr-0 md:mr-0">“True education is a kind of never ending story — a matter of continual beginnings, of habitual fresh starts, of persistent newness.”
+      <div className="flex flex-row justify-center md:mr-10 sm:ml-28">
+        <h2 className="flex text-gray-400 font-extrathin text-lg italic lg:ml-16 md:ml-16 sm:ml-0 mt-6 sm:w-full md:w-1/2 lg:w-4/5 sm:mr-0 lg:mr-0 md:mr-0">“True education is a kind of never ending story — a matter of continual beginnings, of habitual fresh starts, of persistent newness.”
          ― J. R. R. Tolkien</h2>
       </div>
-      <div className="flex sm:flex-col lg:flex-row md:flex-row w-full justify-center">
+      <div className="flex sm:flex-col lg:flex-row md:flex-row w-full justify-center sm:w-full">
 
         <div className="flex flex-col items-center lg:mr-40 md:mr-12 sm:mr-0 mt-10">
-          <p className="text-3xl font-extralight tracking-widest md:ml-2 lg:ml-4 sm:mr-2">Skills</p>
+          <p className="text-3xl font-extralight tracking-widest md:ml-2 lg:ml-4 sm:ml-28">Skills</p>
 
-          <div className="flex flex-row items-center">
+          <div className="flex flex-row items-center sm:ml-32">
 
             <div className="flex flex-col justify-start">
 
@@ -73,7 +73,7 @@ export default function Resume() {
 
 
 
-        <div className="flex flex-col items-center md:mr-20 lg:mr-20 sm:mr-0 mt-14">
+        <div className="flex flex-col items-center md:mr-20 lg:mr-20 sm:mr-0 mt-14 sm:ml-12 text-center sm:w-full">
 
           <div data-aos="flip-right" data-aos-duration="1000" className="border-2 border-gray-400 p-10 rounded-md m-5 text-gray-200">
             <a href="https://docs.google.com/document/d/1-esnALxJljMTqnJeEvhrRC_uaR3tvdVW/edit">
