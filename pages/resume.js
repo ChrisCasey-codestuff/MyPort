@@ -17,12 +17,12 @@ export default function Resume() {
         <h2 className="text-4xl m-10 text-gray-300 tracking-widest font-extralight lg:mr-14 md:mr-14">My Resume</h2>
       </div>
       <div className="flex flex-row justify-center md:mr-10 sm:ml-28 md:ml-0 lg:ml-0">
-        <h2 className="flex text-gray-400 font-extrathin text-lg italic lg:ml-16 md:ml-16 sm:ml-0 mt-6 sm:w-full md:w-1/2 lg:w-4/5 sm:mr-0 lg:mr-10 md:mr-10">“True education is a kind of never ending story — a matter of continual beginnings, of habitual fresh starts, of persistent newness.”
+        <h2 className="flex text-gray-400 font-extrathin text-md italic lg:ml-16 md:ml-16 sm:ml-0 mt-6 sm:w-full md:w-1/2 lg:w-4/5 sm:mr-0 lg:mr-14 md:mr-14">“True education is a kind of never ending story — a matter of continual beginnings, of habitual fresh starts, of persistent newness.”
          ― J. R. R. Tolkien</h2>
       </div>
       <div className="flex sm:flex-col lg:flex-row md:flex-row w-full justify-center sm:w-full lg:ml-10">
 
-        <div className="flex flex-col items-center lg:mr-20 md:mr-12 sm:mr-0 mt-10">
+        <div className="flex flex-col items-center lg:mr-0 md:mr-0 sm:mr-0 mt-10">
 
             <p className="text-3xl font-extralight tracking-widest md:ml-8 lg:ml-20 sm:ml-28 ">Skills</p>
 
