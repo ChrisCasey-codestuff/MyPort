@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Contact() {
   return (
-    <main className="flex flex-col items-center justify-center mt-10 sm:ml-28">
+    <main className="flex flex-col items-center justify-center mt-10 sm:ml-28 md:ml-0 lg:ml-0">
       <p className="text-4xl font-extralight tracking-widest text-slate-200 md:ml-0 lg:mr-2 sm:w-full sm:text-center">Contact Me</p>
       <div className="flex flex-row mb-10">
         <div>

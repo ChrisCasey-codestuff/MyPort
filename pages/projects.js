@@ -14,11 +14,11 @@ const twitImages = [snakeFeedPic, snakeSignupPic, snakeUserPic]
 
 export default function Projects() {
   return (
-    <main className="pl-4">
-      <div data-aos="fade-up"  data-aos-duration="1200" className="flex flex-row justify-center sm:ml-28 sm:text-center">
+    <main className="pl-0">
+      <div data-aos="fade-up"  data-aos-duration="1200" className="flex flex-row justify-center sm:ml-28 md:ml-0 lg:ml-0 sm:text-center">
         <h2 className="text-4xl m-10 text-gray-300 tracking-widest font-extralight mr-14">My Projects</h2>
       </div>
-      <div className="flex flex-row lg:items-end md:items-end sm:items-center lg:justify-end md:justify-end sm:justify-center mt-5 mr-3 ml-2 sm:ml-28">
+      <div className="flex flex-row lg:items-end md:items-end sm:items-center lg:justify-end md:justify-end sm:justify-center mt-5 mr-3 ml-2 sm:ml-28 md:ml-0 lg:ml-0">
         <div className="lg:mr-10 md:mr-10 sm:mr-0">
           <div className="flex flex-row lg:justify-end  sm:justify-center md:justify-start md:mr-20 lg:mr-20 sm:mr-0">
           <div data-aos="fade-up"  data-aos-duration="1000" className="bg-black lg:m-5 md:m-5 sm:ml-5 sm:mt-5 sm:mr-5 p-5 rounded-md border-2 border-gray-400 hover:border-gray-500 drop-shadow-md bg-transparent lg:w-1/2 md:w-4/5 sm:w-full">
