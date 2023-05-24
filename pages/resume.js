@@ -78,7 +78,7 @@ export default function Resume() {
         <div className="flex flex-col items-center md:mr-20 lg:mr-20 sm:mr-0 mt-14 sm:ml-12 text-center sm:w-full md:ml-0 lg:ml-0">
 
           <div data-aos="flip-right" data-aos-duration="1000" className="border-2 border-gray-400 p-10 rounded-md m-5 text-gray-200">
-            <a href="https://docs.google.com/document/d/1-esnALxJljMTqnJeEvhrRC_uaR3tvdVW/edit">
+            <a href="https://docs.google.com/document/d/1kY9eD3qRRBZQt9gkkZdmjMIOscWx_skd0gmLEUKioNM/edit">
               View full resume
             </a>
           </div>
