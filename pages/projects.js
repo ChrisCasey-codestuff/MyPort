@@ -21,7 +21,7 @@ export default function Projects() {
       <div className="flex flex-row lg:items-end md:items-end sm:items-center lg:justify-end md:justify-end sm:justify-center mt-5 mr-3 ml-2">
         <div className="lg:mr-10 md:mr-10 sm:mr-0">
           <div className="flex flex-row lg:justify-end  sm:justify-center md:justify-start md:mr-20 lg:mr-20 sm:mr-0">
-          <div data-aos="fade-up"  data-aos-duration="1000" className="bg-black lg:m-5 md:m-5 sm:ml-5 sm:mt-5 sm:mr-5 p-5 rounded-md border-2 border-gray-400 hover:border-gray-500 drop-shadow-md bg-transparent lg:w-1/2 md:w-4/5 sm:w-5/6">
+          <div data-aos="fade-up"  data-aos-duration="1000" className="bg-black lg:m-5 md:m-5 sm:ml-5 sm:mt-5 sm:mr-5 p-5 rounded-md border-2 border-gray-400 hover:border-gray-500 drop-shadow-md bg-transparent lg:w-1/2 md:w-4/5 sm:w-full">
             <Link href="/snakeTwitter">
               <div className="flex flex-row">
                 <p className="text-gray-300 hover:text-gray-400 italic text-2xl mb-10 mr-40 font-light lg:text-left md:text-left sm:text-center">Snake Twitter</p>
@@ -36,7 +36,7 @@ export default function Projects() {
 
 
           <div className="flex flex-row lg:justify-start md:justify-start mr-30 sm:justify-center">
-            <div data-aos="fade-up"  data-aos-duration="1000" className="bg-black lg:m-5 md:m-5 sm:ml-5 sm:mt-5 sm:mr-5 p-5 rounded-md border-2 border-gray-400 hover:border-gray-500 drop-shadow-md bg-transparent lg:w-1/2 md:w-4/5 sm:w-5/6 lg:text-left md:text-left sm:text-center lg:mr-40">
+            <div data-aos="fade-up"  data-aos-duration="1000" className="bg-black lg:m-5 md:m-5 sm:ml-5 sm:mt-5 sm:mr-5 p-5 rounded-md border-2 border-gray-400 hover:border-gray-500 drop-shadow-md bg-transparent lg:w-1/2 md:w-4/5 sm:w-full lg:text-left md:text-left sm:text-center lg:mr-40">
             <Link href="/myPortfolio">
               <p className="text-gray-300 hover:text-gray-400 italic text-2xl mb-10 mr-40 font-light">My Portfolio</p>
             </Link>
@@ -48,7 +48,7 @@ export default function Projects() {
 
 
             <div className="flex flex-row lg:justify-end  sm:justify-center md:justify-start md:mr-20 lg:mr-20">
-              <div data-aos="fade-up"  data-aos-duration="1000" className="bg-black lg:m-5 md:m-5 sm:ml-5 sm:mt-5 sm:mr-5 p-5 rounded-md border-2 border-gray-400 hover:border-gray-500 drop-shadow-md bg-transparent lg:w-1/2 md:w-4/5 sm:w-5/6">
+              <div data-aos="fade-up"  data-aos-duration="1000" className="bg-black lg:m-5 md:m-5 sm:ml-5 sm:mt-5 sm:mr-5 p-5 rounded-md border-2 border-gray-400 hover:border-gray-500 drop-shadow-md bg-transparent lg:w-1/2 md:w-4/5 sm:w-full">
               <Link href="/pokemonTourny">
                 <p className="text-gray-300 hover:text-gray-400 italic text-2xl mb-10 mr-40 font-light lg:text-left md:text-left sm:text-center">Pokemon World Tournament</p>
               </Link>
