@@ -83,7 +83,7 @@ export default function Resume() {
             </a>
           </div>
 
-          <a className="border-2 border-gray-400 p-10 rounded-md m-5" href="/Users/tomwhiteman/my-port/public/myRes.pdf" download>
+          <a className="border-2 border-gray-400 p-10 rounded-md m-5" href="/assets/myRes.pdf" download>
           <div data-aos="flip-left" data-aos-duration="1000" className="">
             <div className="">
                 <p className="text-gray-200">Download My Resume</p>

@@ -4,6 +4,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function PokemonTourny() {
   return (
+    <>
     <main>
       <div data-aos="fade-right"  data-aos-duration="1000">
         <h1 className="text-3xl font-extralight m-5 text-gray-200 tracking-widest">Pokemon World Tournament</h1>
@@ -29,5 +30,6 @@ export default function PokemonTourny() {
         </div>
       </div>
     </main>
+    </>
   )
 }
